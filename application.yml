@@ -8,3 +8,18 @@ eureka:
       
 foo: baz
 apic: chr
+
+spring.profiles.active=GetaLoan
+GetaLoanError.Errors[0].code=401
+GetaLoanError.Errors[0].message=Unauthorized
+GetaLoanError.Errors[0].level=Error
+GetaLoanError.Errors[0].description=The authorization is not valid.
+GetaLoanGET.PreApprovedLoansList[0].preApprovedLoantypeID=12345
+GetaLoanGET.PreApprovedLoansList[0].preApprovedLoanMinPeriod=12
+GetaLoanGET.PreApprovedLoansList[0].preApprovedLoanMaxPeriod=96
+GetaLoanGET.PreApprovedLoansList[0].preApprovedLoanPeriodTimeUnit=M
+GetaLoanGET.PreApprovedLoansList[0].preApprovedLoanAmountMin=15000
+GetaLoanGET.PreApprovedLoansList[0].preApprovedLoanAmountMax=30000
+GetaLoanGET.PreApprovedLoansList[0].preApprovedLoanAmountCurrency=EUR
+GetaLoanGET.PreApprovedLoansList[0].loanRequestURL=https://particulares.bancosantander.es/home/#/
+GetaLoanGET.haveLoan=false
