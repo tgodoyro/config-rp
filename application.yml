@@ -15,3 +15,9 @@ GetaLoan:
     message:Unauthorized
     level:Error
     description:The authorization is not valid.
+  Errors[1]:
+    code:402
+    message:Unauthorized 2
+    level:Error 
+    description:The authorization is not valid2
+
