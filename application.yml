@@ -12,15 +12,10 @@ apic: chr
 spring
   profiles
     active:GetaLoan
-GetaLoanError
+    
+GetaLoan
   Errors[0]
     code:401
-GetaLoanError
-  Errors[0]
     message:Unauthorized
-GetaLoanError
-  Errors[0]
     level:Error
-GetaLoanError
-  Errors[0]
     description:The authorization is not valid.
