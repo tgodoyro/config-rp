@@ -9,10 +9,6 @@ eureka:
 foo: baz
 apic: chr
 
-spring:
-  profiles:
-    active:GetaLoan
-    
 GetaLoan:
   Errors[0]:
     code:401
