@@ -9,12 +9,12 @@ eureka:
 foo: baz
 apic: chr
 
-spring
-  profiles
+spring:
+  profiles:
     active:GetaLoan
     
-GetaLoan
-  Errors[0]
+GetaLoan:
+  Errors[0]:
     code:401
     message:Unauthorized
     level:Error
